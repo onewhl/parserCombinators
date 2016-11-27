@@ -19,3 +19,10 @@ The parser combinator library written on Kotlin.
     - `gradlew setup` to configure idea-based files
     - `gradlew test` -- compile and run tests
     - `gralew jar` -- create .jar-file. You can find it in build/libs
+
+# Performance
+| Language                                    | Length of string    | Time          |
+|:--------------------------------------------|:-------------------:| -------------:|
+|<i>a<sup>n</sup> b<sup>n</sup> c<sup>n</sup> | 900                 | **0.087** sec |
+| *wcw*                                       | 401                 | **0.044** sec |
+| *ww*                                        | 600                 | **0.155** sec |
